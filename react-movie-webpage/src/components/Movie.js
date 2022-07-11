@@ -16,7 +16,19 @@ export default function Movie({ year, id, coverImg, title, summary, genres }) {
     <div className={styles.movie}>
       <img src={coverImg} alt={title} className={styles.movie__img} />
       <h2 className={styles.movie__title}>
-        <Link to={`/movie/${id}`}>{title}</Link>
+        <Link
+          to={{
+            pathname: `/movie/${id}`,
+            state: {
+              year,
+              title,
+              summary,
+              genres,
+            },
+          }}
+        >
+          {title}
+        </Link>
       </h2>
       <h3 className={styles.movie__year}>{year}</h3>
       <p>{summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}</p>
