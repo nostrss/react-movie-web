@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-movie-web/static/css/main.6da44a5c.css",
-    "main.js": "/react-movie-web/static/js/main.9419816c.js",
+    "main.js": "/react-movie-web/static/js/main.e60f6eb8.js",
     "index.html": "/react-movie-web/index.html",
     "main.6da44a5c.css.map": "/react-movie-web/static/css/main.6da44a5c.css.map",
-    "main.9419816c.js.map": "/react-movie-web/static/js/main.9419816c.js.map"
+    "main.e60f6eb8.js.map": "/react-movie-web/static/js/main.e60f6eb8.js.map"
   },
   "entrypoints": [
     "static/css/main.6da44a5c.css",
-    "static/js/main.9419816c.js"
+    "static/js/main.e60f6eb8.js"
   ]
 }
